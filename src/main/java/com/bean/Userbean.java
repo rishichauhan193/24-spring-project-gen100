@@ -2,29 +2,32 @@ package com.bean;
 
 public class Userbean {
 
-	private String firstname;
+	private String firstName;
 	private String email;
-	private String pass;
-	
-	public String getfirstname() {
-		return firstname;
+	private String password;
+
+	public String getFirstName() {
+		return firstName;
 	}
-	public void setfirstname(String firstname) {
-		this.firstname = firstname;
+
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
 	}
-	
+
 	public String getEmail() {
 		return email;
 	}
+
 	public void setEmail(String email) {
 		this.email = email;
 	}
-	
-	public String getpass() {
-		return pass;
+
+	public String getPassword() {
+		return password;
 	}
-	public void setpass(String pass) {
-		this.pass = pass;
+
+	public void setPassword(String password) {
+		this.password = password;
 	}
-	
+
 }

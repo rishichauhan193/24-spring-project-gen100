@@ -34,9 +34,9 @@ public class Firstproject  {
 	
 	@PostMapping("/saveuser")
 	public String saveuser(Userbean userbean,Model model){
-		System.out.println("FirstName: " + userbean.getfirstname());
+		System.out.println("FirstName: " + userbean.getFirstName());
 		System.out.println("Email: " + userbean.getEmail());
-		System.out.println("Password: " + userbean.getpass());
+		System.out.println("Password: " + userbean.getPassword());
 		
 		model.addAttribute("user",userbean);
 		return "Home";

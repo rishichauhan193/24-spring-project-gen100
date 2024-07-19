@@ -12,7 +12,7 @@ public class Boxcricket {
 
 	public void setStudentName(String studentName) {
 		this.studentName = studentName;
-           	}
+          	}
 
 	public String getPlayerType() {
 		return playerType;
